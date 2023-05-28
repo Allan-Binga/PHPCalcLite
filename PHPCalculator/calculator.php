@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="php.css">
 </head>
 <body>
-    <h1 class="hero">PHP Calculator</h1>
+    <h1 class="hero">PHP Calculator</h1><i class="uil uil-calculator-alt"></i>
     <div class="container">
         <form action="" method="GET">
             <div class="answer">
