@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;300&display=swap');
+*{
+   
+    background:wheat;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+form input[type = "text"]{
+    height: 20px;
+    border: none;
+    display: block;
+    border-bottom: 2px solid brown ;
+}
+
+form input[type="text"] hover{
+    border-bottom: 2px solid maroon;
+}
+
+select{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+}
+
+button{
+width: 250px;
+height: 50px;
+font-size: 20px;
+background-color: brown;
+border: navajowhite;
+outline: none;
+cursor: grab;
+box-shadow: wheat 12px 3px;
+}
+
+.hero{
+    position: absolute;
+    top: 10px;
+    left: 39%;
+}
+
+.answer{
+    color: brown;
+    font-size: 20px;
+}
+
+.footer{
+    position: relative;
+    left: 500px;
+}
